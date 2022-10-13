@@ -16,3 +16,6 @@ exports:
   - name: pv10g
     size: 10G
     count: 20
+  - name: pv40g
+    size: 40G
+    count: 3
