@@ -8,16 +8,17 @@ exports_path: /mnt/ocp-exports
 
 exports:
   - name: pv1g
-    size: 1G
+    size: 1Gi
     count: 40
   - name: pv5g
-    size: 5G
+    size: 5Gi
     count: 30
   - name: pv10g
-    size: 10G
+    size: 10Gi
     count: 20
   - name: pv40g
-    size: 40G
+    size: 40Gi
     count: 3
   - name: pv100g_registry
+    size: 100Gi
     count: 1
