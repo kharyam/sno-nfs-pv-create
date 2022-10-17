@@ -11,6 +11,7 @@ spec:
     storage: {{ $export.size }}
   accessModes:
   - ReadWriteOnce
+  - ReadWriteMany
   nfs:
     path: {{ $.Values.exports_path }}/{{ $export.name }}_{{ printf "%03d" (add1 $i) }}
     server: {{ $.Values.server }}

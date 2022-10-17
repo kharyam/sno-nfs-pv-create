@@ -19,3 +19,5 @@ exports:
   - name: pv40g
     size: 40G
     count: 3
+  - name: pv100g_registry
+    count: 1
